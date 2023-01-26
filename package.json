@@ -1,0 +1,32 @@
+{
+  "name": "fsp-react",
+  "version": "1.0.0",
+  "description": "tool to make creating filtering, pagination, and sorting on frontend easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanPidkostelnyi/React_filtering_and_sorting.git"
+  },
+  "keywords": [
+    "fsp",
+    "sorting",
+    "filter",
+    "pagination"
+  ],
+  "author": "Roman Pidkostelnyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanPidkostelnyi/React_filtering_and_sorting/issues"
+  },
+  "homepage": "https://github.com/RomanPidkostelnyi/React_filtering_and_sorting#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "lodash.size": "^4.2.0"
+  }
+}
