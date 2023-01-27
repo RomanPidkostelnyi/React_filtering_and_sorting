@@ -1,4 +1,5 @@
-export { default as usePagination } from './hooks/usePagination';
-export { default as useFilterAndSorting } from './hooks/useFilterAndSorting';
+import  usePagination  from './hooks/usePagination';
+import  useFilters from './hooks/useFilters';
+import useSorting from "./hooks/useSorting";
 
-
+export { usePagination, useFilters, useSorting };
