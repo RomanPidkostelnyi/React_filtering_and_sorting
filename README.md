@@ -11,14 +11,15 @@ We provide 3 hooks `useFilters, usePagination, useSorting`
 - `options` it is a special object that consist of key-value pair where `key` it is fieldName where we want to apply 
 our filtering, and `value` it options for filtering. Let`s take a look on example
   
-
+```
      'fieldName': {
         option: 'exact | includes | null', exact will tell to psf that we need to find only exact match, when includes that we need find any value that includes value
         useOrFilter: 'Boolean', this option will work if you pass to value  array and will try to find where at least on element in array satisfy condition
         useRangeFilter: 'Boolean', if this equal true your should pass array which consist from 2 number [start(included), finish(not included)]
         value: 'string | number | array | null',
     }
-};`
+};
+```
 
 **Be carefull because if you pass useRangeFilter, then useOrFilter will not work and vice versa**
 
